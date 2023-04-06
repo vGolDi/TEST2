@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 9076284625983098559}
   - component: {fileID: 2265161749455241159}
   - component: {fileID: 7335724287613658380}
+  - component: {fileID: 6447921583745244742}
   m_Layer: 6
   m_Name: Tyled_Wall
   m_TagString: Light
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 2087999599100656279}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2999998, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -97,3 +98,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0028763, y: 2.000001, z: 0.39775658}
   m_Center: {x: 0.01344347, y: -0.101474345, z: 0.028619044}
+--- !u!54 &6447921583745244742
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087999599100656279}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
