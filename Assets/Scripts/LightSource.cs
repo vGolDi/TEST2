@@ -8,8 +8,8 @@ public class LightSource : MonoBehaviour
     Transform target; 
     [SerializeField]
     float rotationSpeed; 
-    private float _horizontalInput; // wejœcie z osi X
-    private bool _isRotating; // czy œwiat³o jest obecnie w ruchu
+    private float _horizontalInput;
+    private bool _isRotating; 
 
     void Update()
     {

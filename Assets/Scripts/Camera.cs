@@ -5,12 +5,12 @@ using UnityEngine;
 public class Camera : MonoBehaviour
 {
     [SerializeField]
-    Transform target; // obiekt, wokó³ którego bêdzie obracaæ siê kamera
+    Transform target; 
     [SerializeField]
-    float rotationSpeed; // prêdkoœæ obrotu kamery
+    float rotationSpeed;
 
-    private float _horizontalInput; // wejœcie z osi X
-    private bool _isRotating; // czy kamera jest obecnie w ruchu
+    private float _horizontalInput;
+    private bool _isRotating; 
 
     void Update()
     {

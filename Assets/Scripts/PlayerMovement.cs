@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public float speed = 5.0f;
     public float rotationSpeed = 10.0f;
-    public float gravity = 20.0f; // Nowa zmienna dla wartoœci przyspieszenia grawitacyjnego
+    public float gravity = 20.0f;
 
     private CharacterController controller;
     private Vector3 moveDirection = Vector3.zero;
@@ -49,7 +49,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        // Obracanie postaci wokó³ osi Y
+        
         if (Input.GetKey(KeyCode.A))
         {
             transform.Rotate(Vector3.down * rotationSpeed * Time.deltaTime);
